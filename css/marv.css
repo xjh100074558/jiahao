@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-11-14 11:08:35
+ * @version $Id$
+ */
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+
+.on{
+	position: fixed;
+	top: 0.1rem;
+	right: 0.24rem;
+}
+.on img{
+	width: 0.6rem;
+	height: 0.68rem;
+}
+.page1{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url(../images/31.jpg);
+}
+.page1 div:nth-child(1){
+	margin: 1.5rem auto 0;
+	width: 6.4rem;
+	height: 2.48rem;
+	overflow: hidden;
+}
+.page1 div:nth-child(2){
+	margin: 0.2rem auto 0;
+	width: 6.4rem;
+	height: 0.56rem;
+	animation-iteration-count:infinite;
+	animation-duration:1s;
+}
+.page2{
+	position: relative;
+}
+.page2-bag{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.page2-bag img{
+	width: 6.4rem;
+	height: 11.36rem;
+}
+.page2-main{
+	position: absolute;
+	top:50%;
+	margin-top: -4.26rem;
+}
+.page2-main img{
+	width: 6.4rem;
+	height: 8.52rem;
+}
