@@ -41,6 +41,10 @@ body{
 	height: 2.48rem;
 	overflow: hidden;
 }
+.page1 div:nth-child(1) img{
+	width: 6.4rem;
+	height: 2.48rem;
+}
 .page1 div:nth-child(2){
 	margin: 0.2rem auto 0;
 	width: 6.4rem;
@@ -48,24 +52,229 @@ body{
 	animation-iteration-count:infinite;
 	animation-duration:1s;
 }
+.page1 div:nth-child(2) img{
+	width: 6.4rem;
+	height: 0.56rem;
+}
 .page2{
 	position: relative;
+	background-image: url(../images/33.jpg);
 }
-.page2-bag{
-	width: 100%;
-	height: 100%;
+.page2 div:nth-child(1){
 	position: absolute;
+	width: 6.4rem;
+	height: 11.36rem;
+	top:0.55rem;
 }
-.page2-bag img{
+.page2 div:nth-child(1) img{
 	width: 6.4rem;
 	height: 11.36rem;
 }
-.page2-main{
+.page2 div:nth-child(2){
 	position: absolute;
-	top:50%;
-	margin-top: -4.26rem;
-}
-.page2-main img{
+	bottom: 0.25rem;
 	width: 6.4rem;
-	height: 8.52rem;
+	height: 0.56rem;
+	left: 50%;
+	margin-left:-3.2rem;
+	animation-iteration-count:infinite;
+}
+.page2 div:nth-child(2) img{
+	position: relative;
+	width: 6.4rem;
+	height: 0.56rem;
+}
+<!-- 第3页 -->
+.page3{
+	position: relative;
+	background-image: url(../images/33.jpg);
+}
+.page3 div:nth-child(1){
+	position: absolute;
+	width: 6.4rem;
+	height: 6.24rem;
+	top: 1rem;
+	right: 0.5rem;
+}
+.page3 div:nth-child(1) img{
+	width: 6.4rem;
+	height: 6.24rem;
+}
+.page3 div:nth-child(2){
+	position: absolute;
+	top: 2.2rem;
+	left: 0.1rem;
+	width: 6.4rem;
+	height: 6.66rem;
+}
+.page3 div:nth-child(2) img{
+	width: 6.4rem;
+	height: 6.66rem;
+}
+.page3 div:nth-child(3){
+	position: absolute;
+	width: 6.4rem;
+	height: 0.56rem;
+	bottom: 0.25rem;
+	left: 50%;
+	margin-left:-3.2rem;
+	animation-iteration-count:infinite;
+}
+.page3 div:nth-child(3) img{
+	height: 0.56rem;
+	bottom: 0.25rem;
+}
+.page4{
+	position: relative;
+	background-image: url(../images/33.jpg);
+} 
+.page4 div:nth-child(1){
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -3.2rem;
+	margin-top: -2.305rem;
+	width: 6.4rem;
+	height: 4.61rem;
+}
+.page4 div:nth-child(1) img{
+	width: 6.4rem;
+	height: 4.61rem;
+}
+.page4 div:nth-child(2){
+	position: absolute;
+	left: 50%;
+	margin-left: -3.2rem;
+	top:1rem;
+	width: 6.4rem;
+	height: 3.09rem;
+}
+.page4 div:nth-child(2) img{
+	width: 6.4rem;
+	height: 3.09rem;
+}
+.page4 div:nth-child(3){
+	position: absolute;
+	left: 50%;
+	margin-left: -3.2rem;
+	bottom:1rem;
+	width: 6.4rem;
+	height: 1.31rem;
+}
+.page4 div:nth-child(3) img{
+	width: 6.4rem;
+	height: 1.31rem;
+}
+.page4 div:nth-child(4){
+	position: absolute;
+	width: 6.4rem;
+	height: 0.56rem;
+	bottom: 0.25rem;
+	left: 50%;
+	margin-left:-3.2rem;
+	animation-iteration-count:infinite;
+}
+.page4 div:nth-child(4) img{
+	width: 6.4rem;
+	height: 0.56rem;
+}
+.page5 div:nth-child(1){
+	background-image: url(../images/33.jpg);
+	position: absolute;
+	left: 50%;
+	margin-left:-3.2rem;
+	top:1rem;
+	width: 6.4rem;
+	height: 0.92rem;
+}
+.page5 div:nth-child(1) img{
+	width: 6.4rem;
+	height: 0.92rem;
+}
+.page5 div:nth-child(2){
+	position: absolute;
+	left: 0rem;
+	top: 2rem;
+	width: 6.4rem;
+	height: 7.08rem;
+}
+.page5 div:nth-child(2) img{
+	width: 6.4rem;
+	height: 7.08rem;
+}
+.page5 div:nth-child(3){
+	position: absolute;
+	right: 0rem;
+	top: 2rem;
+	width: 6.4rem;
+	height: 7.23rem;
+}
+.page5 div:nth-child(3) img{
+	width: 6.4rem;
+	height: 7.23rem;	
+	}
+.page5 div:nth-child(4){
+	position: absolute;
+	top:2.2rem;
+	left: 50%;
+	margin-left:-3.2rem;
+	width: 6.4rem;
+	height: 2.68rem;
+	animation-iteration-count:infinite;
+}
+.page5 div:nth-child(4) img{
+	width: 6.4rem;
+	height: 2.68rem;
+}
+.page5 div:nth-child(5){
+	position: absolute;
+	left: 50%;
+	margin-left:-3.2rem;
+	top:5.2rem;
+	width: 6.4rem;
+	height: 2.81rem;
+}
+.page5 div:nth-child(5) img{
+	width: 6.4rem;
+	height: 2.81rem;
+}
+.page5 div:nth-child(6){
+	position: absolute;
+	bottom: 0.25rem;
+	left: 50%;
+	margin-left:-3.2rem;
+	width: 6.4rem;
+	height: 0.56rem;
+}
+.page5 div:nth-child(6) img{
+	width: 6.4rem;
+	height: 0.56rem;
+}
+.page6{
+	position: relative;
+	background-image: url(../images/33.jpg);
+}
+.page6 div:nth-child(1){
+	position: absolute;
+	left: 50%;
+	margin-left:-3.2rem;
+	top:0;
+	width: 6.4rem;
+	height: 8.04rem;
+}
+.page6 div:nth-child(1) img{
+	width: 6.4rem;
+	height: 8.04rem;	
+}
+.page6 div:nth-child(2){
+	position: absolute;
+	left: 50%;
+	margin-left:-3.2rem;
+	bottom: 0;
+	width: 6.4rem;
+	height: 3.86rem;
+}
+.page6 div:nth-child(2) img{
+	width: 6.4rem;
+	height: 3.86rem;
 }
